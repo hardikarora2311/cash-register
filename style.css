@@ -10,7 +10,7 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    width: 65vw;
+    width: 50vw;
     align-items: center;
     background-color: #B95059;
     padding: 2em;
