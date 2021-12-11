@@ -44,7 +44,7 @@ input{
 
 .amounts{
     margin: 1em;
-    align-self: flex-start;
+    align-self: center;
 }
 .amounts> li{
     font-size: large;
