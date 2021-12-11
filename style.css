@@ -2,15 +2,104 @@
 body{
     margin: 0px;
     font-family: 'DM Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container{
     display: flex;
     flex-direction: column;
-    width: 50vw;
-    /* align-items: center; */
+    width: 65vw;
+    align-items: center;
+    background-color: #B95059;
+    padding: 2em;
+    color: white;
 }
 
+.desc{
+    text-align: center;
+}
 .error-msg{
     display: none;
 }
+
+label{
+    font-size: larger;
+    margin-top: 1.5em;
+}
+input{
+    margin: 0.5em;
+    width: 80%;
+    height: 40px ;
+}
+.check-btn{
+    padding: 0.6em 1.6em;
+    margin: 0.6em;
+    font-size: large;
+    border-radius: 0.2em;
+    border: transparent;
+    cursor: pointer;
+}
+
+.amounts{
+    margin: 1em;
+    align-self: flex-start;
+}
+.amounts> li{
+    font-size: large;
+    display: inline;
+    padding: 2em;
+}
+
+.change-table{
+    margin: 1.8em;
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+th{
+    border: 2px solid white;
+    padding: 1em;
+}
+td{
+    padding: 1em;
+    border: 2px solid white;
+
+}
+caption{
+    font-size: large;
+    margin-bottom: 0.8em;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+
+.name{
+    font-style: italic;
+}
+
+
+
+.pp{
+    color: white;
+    text-decoration: none;
+}
+
+.socials{
+    list-style: none;
+}
+
+.social-links{
+    display: inline;
+    color: white;
+    text-decoration: none;
+    padding: 0.8em;
+}
+
+
